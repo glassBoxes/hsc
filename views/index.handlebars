@@ -1,0 +1,133 @@
+<div class="topbar">
+    <img src="/img/logo.png" alt="">
+</div>
+ 
+<div class="container-fluid content">
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <div class="text-center"><img src="/img/supplier.png" alt=""></div>
+        <div class="text-center icon-text">Supplier</div>
+        <div class="text-center">
+            <select class="form-control">
+                <option>Figos</option>
+                <option>Khausal</option>
+                <option>Gatuzzo</option>
+                <option>Manadoua</option>
+                <option>Gautama</option>
+                <option>Sidane</option>
+                <option>Pirlop</option>
+                <option>Gandhia</option>
+                <option>Khalifa</option>
+                <option>James Bond</option>
+                <option>Ritters</option>
+                <option>Nadals</option>
+                <option>HoChiNug</option>              
+            </select>
+        </div>
+        <div class="text-center">
+            <canvas id="supplier-canvas" width="200px" height="300px"></canvas>
+        </div>
+    </div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <div class="text-center"><img class="transport" src="/img/transport.png" alt=""></div>
+        <div class="text-center"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">2</button></div>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <div class="text-center"><img id="workshop" src="/img/workshop.png" alt=""></div>
+        <div class="text-center icon-text">Workshop</div>
+        <div class="text-center">
+            <select class="form-control">
+                <option>Auvergne</option>
+                <option>Bretagne</option>
+                <option>Centre</option>
+                <option>Idf</option>
+                <option>Limousin</option>
+                <option>Pays de la Loire</option>
+                <option>Rhône-Alpes</option>
+            </select>
+        </div>
+        <div class="text-center">
+            <canvas id="workshop-canvas" width="200px" height="300px"></canvas>
+        </div>
+    </div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <div class="text-center"><img class="transport" src="/img/transport.png" alt=""></div>
+        <div class="text-center"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">2</button></div>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <div class="text-center"><img id="central-warehouse" src="/img/central_warehouse.png" alt=""></div>
+        <div class="text-center icon-text">Central warehouse</div>
+        <div class="text-center">
+            <select class="form-control">
+                <option>Central Warehouse</option>
+            </select>
+        </div>
+        <div class="text-center">
+            <canvas id="central-warehouse-canvas" width="200px" height="300px"></canvas>
+        </div>
+    </div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <div class="text-center"><img class="transport" src="/img/transport.png" alt=""></div>
+        <div class="text-center"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">2</button></div>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <div class="text-center"><img id="regional-warehouse" src="/img/regional_warehouse.png" alt=""></div>
+        <div class="text-center icon-text">Regional warehouse</div>
+        <div class="text-center">
+            <select class="form-control">
+                <option>Europe</option>
+                <option>Middle East</option>
+                <option>North Asia</option>
+                <option>South Asia</option>
+                <option>US East Coast</option>
+                <option>US West Coast</option>
+            </select>
+        </div>
+        <div class="text-center">
+            <canvas id="regional-warehouse-canvas" width="200px" height="300px"></canvas>
+        </div>
+    </div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <div class="text-center"><img class="transport" src="/img/transport.png" alt=""></div>
+        <div class="text-center"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">2</button></div>
+    </div>
+</div>
+ 
+ 
+ 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+ 
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Current deliveries</h4>
+      </div>
+      <div class="modal-body">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Code SKU</th>
+					<th>Number</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>CS017</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>CS018</td>
+					<td>23</td>
+				</tr>
+			</tbody>
+		</table>
+      </div>
+    </div>
+ 
+  </div>
+</div>
